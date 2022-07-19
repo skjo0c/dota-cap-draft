@@ -1,3 +1,7 @@
+html {
+  background: #3c454a;
+}
+
 .App {
   text-align: center;
 }
@@ -35,4 +39,26 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+body {
+  font-family: sans-serif;
+}
+
+.attribute {
+  margin: 50px;
+}
+
+.attribute:first-child {
+  margin-top: 0px;
+}
+
+.attribute:last-child {
+  margin-bottom: 0px;
+}
+
+.grouped-heroes {
+  display: flex;
+  flex-flow: wrap;
+  gap: 10px;
 }
